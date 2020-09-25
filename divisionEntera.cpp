@@ -8,7 +8,7 @@ int divisionEntera(int a, int n)
 	if (a<0)
 	{
 		q--;
-		//r += n;
+		r += n;
 	}
 	//cout << r << endl;
 	return q;
