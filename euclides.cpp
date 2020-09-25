@@ -3,21 +3,6 @@
 
 using namespace std;
 
-
-int divisionEntera(int a, int n)
-{
-	int q = a / n;
-	int r = a - (q * n);
-	if (a < 0)
-	{
-		q--;
-		r += n;
-	}
-	//cout << r << endl;
-	cout << a << " = " << q << " * " << n << " + " << r << endl;
-	return q;
-}
-
 int euclidesExtendido(int a, int b, int &x, int &y) 
 	{
 	int q, r1 = a, r2 = b, r, s1 = 1, s2 = 0, s, t1 = 0, t2 = 1, t;
