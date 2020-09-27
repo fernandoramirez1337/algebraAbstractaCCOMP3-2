@@ -3,6 +3,8 @@
 
 using namespace std;
 
+const string abc = "abcdefghijklmnopqrstuvwxyz ";
+
 int mod(int a, int n)
 {
 	if (!a) 
@@ -22,7 +24,6 @@ class cesar
 {
 private:
 	int clave;
-	string abc = "abcdefghijklmnopqrstuvwxyz ";
 
 public:
 	cesar(int clave)
@@ -62,7 +63,7 @@ public:
 
 int main()
 {
-	///*
+	
 	int clave1 = 679;
 	int clave2 = 6779;
 	cesar yo(clave1);
@@ -71,7 +72,6 @@ int main()
 	string mensaje2 = tu.descifrar(mensaje1, clave1);
 	cout << mensaje1 << endl;
 	cout << mensaje2 << endl;
-	//*/
 	
 	return 0;
 }
