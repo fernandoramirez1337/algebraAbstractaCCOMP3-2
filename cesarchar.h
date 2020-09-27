@@ -3,7 +3,7 @@
 using namespace std;
 
 const char* abcchar = "abcdefghijklmnopqrstuvwxyz ";
-int abclen = strlen(abcchar);
+int abclen = 26;
 
 void printchar(char* txt, int l)
 {
