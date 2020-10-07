@@ -77,7 +77,7 @@ private:
 	{
 		int x, y;
 		euclidesExtendido(clave_a, abc_tam, x, y);
-		return x;
+		return mod(x,abc_tam);
 	}
 	void generar_claves()
 	{
